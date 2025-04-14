@@ -10,5 +10,5 @@ for i in range(155):
 
 print(data)
 
-with open("dataFile.json", mode = "w", encoding = "utf8") as file:
+with open("SimCoResourceData.json", mode = "w", encoding = "utf8") as file:
     json.dump(data, file)
