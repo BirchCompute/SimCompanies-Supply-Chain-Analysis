@@ -1,0 +1,4897 @@
+Power
+{Power: 0}  
+
+Water       
+ =  Power   
+{Water: 1}  
+
+Apples      
+ =  Water   
+ =  =  Power
+ =  Seeds   
+ =  =  Water
+ =  =  =  Power
+{Apples: 3}
+
+Oranges
+ =  Water
+ =  =  Power
+ =  Seeds
+ =  =  Water
+ =  =  =  Power
+{Oranges: 3}
+
+Grapes
+ =  Water
+ =  =  Power
+ =  Seeds
+ =  =  Water
+ =  =  =  Power
+{Grapes: 3}
+
+Grain
+ =  Water
+ =  =  Power
+ =  Seeds
+ =  =  Water
+ =  =  =  Power
+{Grain: 3}
+
+Steak
+ =  Cows
+ =  =  Fodder
+ =  =  =  Vegetables
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Grain
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Water
+ =  =  =  Power
+{Steak: 6}
+
+Sausages
+ =  Pigs
+ =  =  Fodder
+ =  =  =  Vegetables
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Grain
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Water
+ =  =  =  Power
+{Sausages: 6}
+
+Eggs
+ =  Water
+ =  =  Power
+ =  Grain
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+{Eggs: 4}
+
+Crude oil
+ =  Power
+{Crude oil: 1}
+
+Petrol
+ =  Power
+ =  Crude oil
+ =  =  Power
+ =  Ethanol
+ =  =  Power
+ =  =  Sugarcane
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Petrol: 5}
+
+Diesel
+ =  Power
+ =  Crude oil
+ =  =  Power
+ =  Ethanol
+ =  =  Power
+ =  =  Sugarcane
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Diesel: 5}
+
+Transport
+ =  Power
+ =  Diesel
+ =  =  Power
+ =  =  Crude oil
+ =  =  =  Power
+ =  =  Ethanol
+ =  =  =  Power
+ =  =  =  Sugarcane
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+{Transport: 6}
+
+Minerals
+ =  Power
+ =  Water
+ =  =  Power
+{Minerals: 2}
+
+Bauxite
+ =  Power
+ =  Water
+ =  =  Power
+{Bauxite: 2}
+
+Silicon
+ =  Power
+ =  Sand
+ =  =  Power
+{Silicon: 2}
+
+Chemicals
+ =  Power
+ =  Minerals
+ =  =  Power
+ =  =  Water
+ =  =  =  Power
+{Chemicals: 3}
+
+Aluminium
+ =  Power
+ =  Bauxite
+ =  =  Power
+ =  =  Water
+ =  =  =  Power
+{Aluminium: 3}
+
+Plastic
+ =  Power
+ =  Crude oil
+ =  =  Power
+{Plastic: 2}
+
+Processors
+ =  Silicon
+ =  =  Power
+ =  =  Sand
+ =  =  =  Power
+ =  Chemicals
+ =  =  Power
+ =  =  Minerals
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Processors: 4}
+
+Electronic components
+ =  Silicon
+ =  =  Power
+ =  =  Sand
+ =  =  =  Power
+ =  Chemicals
+ =  =  Power
+ =  =  Minerals
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Electronic components: 4}
+
+Batteries
+ =  Chemicals
+ =  =  Power
+ =  =  Minerals
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Batteries: 4}
+
+Displays
+ =  Silicon
+ =  =  Power
+ =  =  Sand
+ =  =  =  Power
+ =  Chemicals
+ =  =  Power
+ =  =  Minerals
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Displays: 4}
+
+Smart phones
+ =  Aluminium
+ =  =  Power
+ =  =  Bauxite
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Processors
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Electronic components
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Batteries
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Displays
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Smart phones: 5}
+
+Tablets
+ =  Aluminium
+ =  =  Power
+ =  =  Bauxite
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Processors
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Electronic components
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Batteries
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Displays
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Tablets: 5}
+
+Laptops
+ =  Plastic
+ =  =  Power
+ =  =  Crude oil
+ =  =  =  Power
+ =  Processors
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Electronic components
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Batteries
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Displays
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Laptops: 5}
+
+Monitors
+ =  Plastic
+ =  =  Power
+ =  =  Crude oil
+ =  =  =  Power
+ =  Electronic components
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Displays
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Monitors: 5}
+
+Televisions
+ =  Plastic
+ =  =  Power
+ =  =  Crude oil
+ =  =  =  Power
+ =  Processors
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Electronic components
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Displays
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Televisions: 5}
+
+Plant research
+{Plant research: 0}
+
+Energy research
+{Energy research: 0}
+
+Mining research
+{Mining research: 0}
+
+Electronics research
+{Electronics research: 0}
+
+Breeding research
+{Breeding research: 0}
+
+Chemistry research
+{Chemistry research: 0}
+
+Software
+{Software: 0}
+
+Cotton
+ =  Water
+ =  =  Power
+ =  Seeds
+ =  =  Water
+ =  =  =  Power
+{Cotton: 3}
+
+Fabric
+ =  Power
+ =  Cotton
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+{Fabric: 4}
+
+Iron ore
+ =  Power
+ =  Water
+ =  =  Power
+{Iron ore: 2}
+
+Steel
+ =  Power
+ =  Chemicals
+ =  =  Power
+ =  =  Minerals
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Iron ore
+ =  =  Power
+ =  =  Water
+ =  =  =  Power
+{Steel: 4}
+
+Sand
+ =  Power
+{Sand: 1}
+
+Glass
+ =  Power
+ =  Silicon
+ =  =  Power
+ =  =  Sand
+ =  =  =  Power
+{Glass: 3}
+
+Leather
+ =  Cows
+ =  =  Fodder
+ =  =  =  Vegetables
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Grain
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Water
+ =  =  =  Power
+{Leather: 6}
+
+On-board computer
+ =  Processors
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Electronic components
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{On-board computer: 5}
+
+Electric motor
+ =  Electronic components
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Steel
+ =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Iron ore
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Electric motor: 5}
+
+Luxury car interior
+ =  Aluminium
+ =  =  Power
+ =  =  Bauxite
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Displays
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Leather
+ =  =  Cows
+ =  =  =  Fodder
+ =  =  =  =  Vegetables
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Luxury car interior: 7}
+
+Basic interior
+ =  Plastic
+ =  =  Power
+ =  =  Crude oil
+ =  =  =  Power
+ =  Displays
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Fabric
+ =  =  Power
+ =  =  Cotton
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Basic interior: 5}
+
+Car body
+ =  Aluminium
+ =  =  Power
+ =  =  Bauxite
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Steel
+ =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Iron ore
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Glass
+ =  =  Power
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+{Car body: 5}
+
+Combustion engine
+ =  Chemicals
+ =  =  Power
+ =  =  Minerals
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Electronic components
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Steel
+ =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Iron ore
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Combustion engine: 5}
+
+Economy e-car
+ =  Batteries
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  On-board computer
+ =  =  Processors
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Electronic components
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Electric motor
+ =  =  Electronic components
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Basic interior
+ =  =  Plastic
+ =  =  =  Power
+ =  =  =  Crude oil
+ =  =  =  =  Power
+ =  =  Displays
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Fabric
+ =  =  =  Power
+ =  =  =  Cotton
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Car body
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Glass
+ =  =  =  Power
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+{Economy e-car: 6}
+
+Luxury e-car
+ =  Batteries
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  On-board computer
+ =  =  Processors
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Electronic components
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Electric motor
+ =  =  Electronic components
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Luxury car interior
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Displays
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Leather
+ =  =  =  Cows
+ =  =  =  =  Fodder
+ =  =  =  =  =  Vegetables
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Grain
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Car body
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Glass
+ =  =  =  Power
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+{Luxury e-car: 8}
+
+Economy car
+ =  On-board computer
+ =  =  Processors
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Electronic components
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Basic interior
+ =  =  Plastic
+ =  =  =  Power
+ =  =  =  Crude oil
+ =  =  =  =  Power
+ =  =  Displays
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Fabric
+ =  =  =  Power
+ =  =  =  Cotton
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Car body
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Glass
+ =  =  =  Power
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  Combustion engine
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Electronic components
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Economy car: 6}
+
+Luxury car
+ =  On-board computer
+ =  =  Processors
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Electronic components
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Luxury car interior
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Displays
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Leather
+ =  =  =  Cows
+ =  =  =  =  Fodder
+ =  =  =  =  =  Vegetables
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Grain
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Car body
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Glass
+ =  =  =  Power
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  Combustion engine
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Electronic components
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Luxury car: 8}
+
+Truck
+ =  Steel
+ =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Iron ore
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  On-board computer
+ =  =  Processors
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Electronic components
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Basic interior
+ =  =  Plastic
+ =  =  =  Power
+ =  =  =  Crude oil
+ =  =  =  =  Power
+ =  =  Displays
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Fabric
+ =  =  =  Power
+ =  =  =  Cotton
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Car body
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Glass
+ =  =  =  Power
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  Combustion engine
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Electronic components
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Truck: 6}
+
+Automotive research
+{Automotive research: 0}
+
+Fashion research
+{Fashion research: 0}
+
+Underwear
+ =  Fabric
+ =  =  Power
+ =  =  Cotton
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Underwear: 5}
+
+Gloves
+ =  Fabric
+ =  =  Power
+ =  =  Cotton
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Leather
+ =  =  Cows
+ =  =  =  Fodder
+ =  =  =  =  Vegetables
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Gloves: 7}
+
+Dress
+ =  Plastic
+ =  =  Power
+ =  =  Crude oil
+ =  =  =  Power
+ =  Fabric
+ =  =  Power
+ =  =  Cotton
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Dress: 5}
+
+Stiletto Heel
+ =  Plastic
+ =  =  Power
+ =  =  Crude oil
+ =  =  =  Power
+ =  Leather
+ =  =  Cows
+ =  =  =  Fodder
+ =  =  =  =  Vegetables
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Stiletto Heel: 7}
+
+Handbags
+ =  Leather
+ =  =  Cows
+ =  =  =  Fodder
+ =  =  =  =  Vegetables
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Handbags: 7}
+
+Sneakers
+ =  Plastic
+ =  =  Power
+ =  =  Crude oil
+ =  =  =  Power
+{Sneakers: 3}
+
+Seeds
+ =  Water
+ =  =  Power
+{Seeds: 2}
+
+Xmas crackers
+ =  Chemicals
+ =  =  Power
+ =  =  Minerals
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Plastic
+ =  =  Power
+ =  =  Crude oil
+ =  =  =  Power
+{Xmas crackers: 4}
+
+Gold ore
+ =  Power
+ =  Water
+ =  =  Power
+{Gold ore: 2}
+
+Golden bars
+ =  Power
+ =  Gold ore
+ =  =  Power
+ =  =  Water
+ =  =  =  Power
+{Golden bars: 3}
+
+Luxury watch
+ =  Electronic components
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Glass
+ =  =  Power
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  Golden bars
+ =  =  Power
+ =  =  Gold ore
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Luxury watch: 5}
+
+Necklace
+ =  Golden bars
+ =  =  Power
+ =  =  Gold ore
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Necklace: 4}
+
+Sugarcane
+ =  Water
+ =  =  Power
+ =  Seeds
+ =  =  Water
+ =  =  =  Power
+{Sugarcane: 3}
+
+Ethanol
+ =  Power
+ =  Sugarcane
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+{Ethanol: 4}
+
+Methane
+ =  Power
+{Methane: 1}
+
+Carbon fibers
+ =  Power
+ =  Crude oil
+ =  =  Power
+{Carbon fibers: 2}
+
+Carbon composite
+ =  Carbon fibers
+ =  =  Power
+ =  =  Crude oil
+ =  =  =  Power
+{Carbon composite: 3}
+
+Fuselage
+ =  Carbon composite
+ =  =  Carbon fibers
+ =  =  =  Power
+ =  =  =  Crude oil
+ =  =  =  =  Power
+{Fuselage: 4}
+
+Wing
+ =  Aluminium
+ =  =  Power
+ =  =  Bauxite
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Carbon composite
+ =  =  Carbon fibers
+ =  =  =  Power
+ =  =  =  Crude oil
+ =  =  =  =  Power
+{Wing: 4}
+
+High grade e-comps
+ =  Silicon
+ =  =  Power
+ =  =  Sand
+ =  =  =  Power
+ =  Chemicals
+ =  =  Power
+ =  =  Minerals
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Golden bars
+ =  =  Power
+ =  =  Gold ore
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{High grade e-comps: 4}
+
+Flight computer
+ =  On-board computer
+ =  =  Processors
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Electronic components
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  High grade e-comps
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Golden bars
+ =  =  =  Power
+ =  =  =  Gold ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Flight computer: 6}
+
+Cockpit
+ =  Displays
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Basic interior
+ =  =  Plastic
+ =  =  =  Power
+ =  =  =  Crude oil
+ =  =  =  =  Power
+ =  =  Displays
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Fabric
+ =  =  =  Power
+ =  =  =  Cotton
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  High grade e-comps
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Golden bars
+ =  =  =  Power
+ =  =  =  Gold ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Cockpit: 6}
+
+Attitude control
+ =  Batteries
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Steel
+ =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Iron ore
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Electric motor
+ =  =  Electronic components
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Attitude control: 6}
+
+Rocket fuel
+ =  Power
+ =  Methane
+ =  =  Power
+{Rocket fuel: 2}
+
+Propellant tank
+ =  Aluminium
+ =  =  Power
+ =  =  Bauxite
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Rocket fuel
+ =  =  Power
+ =  =  Methane
+ =  =  =  Power
+{Propellant tank: 4}
+
+Solid fuel booster
+ =  Chemicals
+ =  =  Power
+ =  =  Minerals
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Aluminium
+ =  =  Power
+ =  =  Bauxite
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Rocket fuel
+ =  =  Power
+ =  =  Methane
+ =  =  =  Power
+{Solid fuel booster: 4}
+
+Rocket engine
+ =  Aluminium
+ =  =  Power
+ =  =  Bauxite
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Steel
+ =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Iron ore
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  High grade e-comps
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Golden bars
+ =  =  =  Power
+ =  =  =  Gold ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Rocket engine: 5}
+
+Heat shield
+ =  Silicon
+ =  =  Power
+ =  =  Sand
+ =  =  =  Power
+ =  Steel
+ =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Iron ore
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Heat shield: 5}
+
+Ion drive
+ =  Chemicals
+ =  =  Power
+ =  =  Minerals
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Batteries
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  High grade e-comps
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Golden bars
+ =  =  =  Power
+ =  =  =  Gold ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Ion drive: 5}
+
+Jet engine
+ =  Aluminium
+ =  =  Power
+ =  =  Bauxite
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  High grade e-comps
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Golden bars
+ =  =  =  Power
+ =  =  =  Gold ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Jet engine: 5}
+
+Sub-orbital 2nd stage
+ =  Fuselage
+ =  =  Carbon composite
+ =  =  =  Carbon fibers
+ =  =  =  =  Power
+ =  =  =  =  Crude oil
+ =  =  =  =  =  Power
+ =  Flight computer
+ =  =  On-board computer
+ =  =  =  Processors
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Electronic components
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  High grade e-comps
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Golden bars
+ =  =  =  =  Power
+ =  =  =  =  Gold ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Attitude control
+ =  =  Batteries
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Electric motor
+ =  =  =  Electronic components
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Steel
+ =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Iron ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Propellant tank
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Rocket fuel
+ =  =  =  Power
+ =  =  =  Methane
+ =  =  =  =  Power
+ =  Ion drive
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Batteries
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  High grade e-comps
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Golden bars
+ =  =  =  =  Power
+ =  =  =  =  Gold ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+{Sub-orbital 2nd stage: 7}
+
+Sub-orbital rocket
+ =  Solid fuel booster
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Rocket fuel
+ =  =  =  Power
+ =  =  =  Methane
+ =  =  =  =  Power
+ =  Sub-orbital 2nd stage
+ =  =  Fuselage
+ =  =  =  Carbon composite
+ =  =  =  =  Carbon fibers
+ =  =  =  =  =  Power
+ =  =  =  =  =  Crude oil
+ =  =  =  =  =  =  Power
+ =  =  Flight computer
+ =  =  =  On-board computer
+ =  =  =  =  Processors
+ =  =  =  =  =  Silicon
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Sand
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  Electronic components
+ =  =  =  =  =  Silicon
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Sand
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  High grade e-comps
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Golden bars
+ =  =  =  =  =  Power
+ =  =  =  =  =  Gold ore
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  Attitude control
+ =  =  =  Batteries
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Steel
+ =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Iron ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Electric motor
+ =  =  =  =  Electronic components
+ =  =  =  =  =  Silicon
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Sand
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  Steel
+ =  =  =  =  =  Power
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Iron ore
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  Propellant tank
+ =  =  =  Aluminium
+ =  =  =  =  Power
+ =  =  =  =  Bauxite
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Rocket fuel
+ =  =  =  =  Power
+ =  =  =  =  Methane
+ =  =  =  =  =  Power
+ =  =  Ion drive
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Batteries
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  High grade e-comps
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Golden bars
+ =  =  =  =  =  Power
+ =  =  =  =  =  Gold ore
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+{Sub-orbital rocket: 8}
+
+Orbital booster
+ =  Fuselage
+ =  =  Carbon composite
+ =  =  =  Carbon fibers
+ =  =  =  =  Power
+ =  =  =  =  Crude oil
+ =  =  =  =  =  Power
+ =  Propellant tank
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Rocket fuel
+ =  =  =  Power
+ =  =  =  Methane
+ =  =  =  =  Power
+ =  Rocket engine
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  High grade e-comps
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Golden bars
+ =  =  =  =  Power
+ =  =  =  =  Gold ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+{Orbital booster: 6}
+
+Starship
+ =  Cockpit
+ =  =  Displays
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Basic interior
+ =  =  =  Plastic
+ =  =  =  =  Power
+ =  =  =  =  Crude oil
+ =  =  =  =  =  Power
+ =  =  =  Displays
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Fabric
+ =  =  =  =  Power
+ =  =  =  =  Cotton
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  High grade e-comps
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Golden bars
+ =  =  =  =  Power
+ =  =  =  =  Gold ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Attitude control
+ =  =  Batteries
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Electric motor
+ =  =  =  Electronic components
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Steel
+ =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Iron ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Propellant tank
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Rocket fuel
+ =  =  =  Power
+ =  =  =  Methane
+ =  =  =  =  Power
+ =  Rocket engine
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  High grade e-comps
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Golden bars
+ =  =  =  =  Power
+ =  =  =  =  Gold ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Heat shield
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Starship: 7}
+
+BFR
+ =  Orbital booster
+ =  =  Fuselage
+ =  =  =  Carbon composite
+ =  =  =  =  Carbon fibers
+ =  =  =  =  =  Power
+ =  =  =  =  =  Crude oil
+ =  =  =  =  =  =  Power
+ =  =  Propellant tank
+ =  =  =  Aluminium
+ =  =  =  =  Power
+ =  =  =  =  Bauxite
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Rocket fuel
+ =  =  =  =  Power
+ =  =  =  =  Methane
+ =  =  =  =  =  Power
+ =  =  Rocket engine
+ =  =  =  Aluminium
+ =  =  =  =  Power
+ =  =  =  =  Bauxite
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Steel
+ =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Iron ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  High grade e-comps
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Golden bars
+ =  =  =  =  =  Power
+ =  =  =  =  =  Gold ore
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  Starship
+ =  =  Cockpit
+ =  =  =  Displays
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Basic interior
+ =  =  =  =  Plastic
+ =  =  =  =  =  Power
+ =  =  =  =  =  Crude oil
+ =  =  =  =  =  =  Power
+ =  =  =  =  Displays
+ =  =  =  =  =  Silicon
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Sand
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  Fabric
+ =  =  =  =  =  Power
+ =  =  =  =  =  Cotton
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  High grade e-comps
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Golden bars
+ =  =  =  =  =  Power
+ =  =  =  =  =  Gold ore
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  Attitude control
+ =  =  =  Batteries
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Steel
+ =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Iron ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Electric motor
+ =  =  =  =  Electronic components
+ =  =  =  =  =  Silicon
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Sand
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  Steel
+ =  =  =  =  =  Power
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Iron ore
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  Propellant tank
+ =  =  =  Aluminium
+ =  =  =  =  Power
+ =  =  =  =  Bauxite
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Rocket fuel
+ =  =  =  =  Power
+ =  =  =  =  Methane
+ =  =  =  =  =  Power
+ =  =  Rocket engine
+ =  =  =  Aluminium
+ =  =  =  =  Power
+ =  =  =  =  Bauxite
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Steel
+ =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Iron ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  High grade e-comps
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Golden bars
+ =  =  =  =  =  Power
+ =  =  =  =  =  Gold ore
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  Heat shield
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Steel
+ =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Iron ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+{BFR: 8}
+
+Jumbo jet
+ =  Basic interior
+ =  =  Plastic
+ =  =  =  Power
+ =  =  =  Crude oil
+ =  =  =  =  Power
+ =  =  Displays
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Fabric
+ =  =  =  Power
+ =  =  =  Cotton
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Fuselage
+ =  =  Carbon composite
+ =  =  =  Carbon fibers
+ =  =  =  =  Power
+ =  =  =  =  Crude oil
+ =  =  =  =  =  Power
+ =  Wing
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Carbon composite
+ =  =  =  Carbon fibers
+ =  =  =  =  Power
+ =  =  =  =  Crude oil
+ =  =  =  =  =  Power
+ =  Cockpit
+ =  =  Displays
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Basic interior
+ =  =  =  Plastic
+ =  =  =  =  Power
+ =  =  =  =  Crude oil
+ =  =  =  =  =  Power
+ =  =  =  Displays
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Fabric
+ =  =  =  =  Power
+ =  =  =  =  Cotton
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  High grade e-comps
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Golden bars
+ =  =  =  =  Power
+ =  =  =  =  Gold ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Jet engine
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  High grade e-comps
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Golden bars
+ =  =  =  =  Power
+ =  =  =  =  Gold ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+{Jumbo jet: 7}
+
+Luxury jet
+ =  Golden bars
+ =  =  Power
+ =  =  Gold ore
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Fuselage
+ =  =  Carbon composite
+ =  =  =  Carbon fibers
+ =  =  =  =  Power
+ =  =  =  =  Crude oil
+ =  =  =  =  =  Power
+ =  Wing
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Carbon composite
+ =  =  =  Carbon fibers
+ =  =  =  =  Power
+ =  =  =  =  Crude oil
+ =  =  =  =  =  Power
+ =  Cockpit
+ =  =  Displays
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Basic interior
+ =  =  =  Plastic
+ =  =  =  =  Power
+ =  =  =  =  Crude oil
+ =  =  =  =  =  Power
+ =  =  =  Displays
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Fabric
+ =  =  =  =  Power
+ =  =  =  =  Cotton
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  High grade e-comps
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Golden bars
+ =  =  =  =  Power
+ =  =  =  =  Gold ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Jet engine
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  High grade e-comps
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Golden bars
+ =  =  =  =  Power
+ =  =  =  =  Gold ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+{Luxury jet: 7}
+
+Single engine plane
+ =  Combustion engine
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Electronic components
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Fuselage
+ =  =  Carbon composite
+ =  =  =  Carbon fibers
+ =  =  =  =  Power
+ =  =  =  =  Crude oil
+ =  =  =  =  =  Power
+ =  Wing
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Carbon composite
+ =  =  =  Carbon fibers
+ =  =  =  =  Power
+ =  =  =  =  Crude oil
+ =  =  =  =  =  Power
+ =  Cockpit
+ =  =  Displays
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Basic interior
+ =  =  =  Plastic
+ =  =  =  =  Power
+ =  =  =  =  Crude oil
+ =  =  =  =  =  Power
+ =  =  =  Displays
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Fabric
+ =  =  =  =  Power
+ =  =  =  =  Cotton
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  High grade e-comps
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Golden bars
+ =  =  =  =  Power
+ =  =  =  =  Gold ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+{Single engine plane: 7}
+
+Quadcopter
+ =  Plastic
+ =  =  Power
+ =  =  Crude oil
+ =  =  =  Power
+ =  Electronic components
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Batteries
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  On-board computer
+ =  =  Processors
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Electronic components
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+{Quadcopter: 6}
+
+Satellite
+ =  High grade e-comps
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Golden bars
+ =  =  =  Power
+ =  =  =  Gold ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Flight computer
+ =  =  On-board computer
+ =  =  =  Processors
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Electronic components
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  High grade e-comps
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Golden bars
+ =  =  =  =  Power
+ =  =  =  =  Gold ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Attitude control
+ =  =  Batteries
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Electric motor
+ =  =  =  Electronic components
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Steel
+ =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Iron ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Ion drive
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Batteries
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  High grade e-comps
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Golden bars
+ =  =  =  =  Power
+ =  =  =  =  Gold ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+{Satellite: 7}
+
+Aerospace research
+ =  Sub-orbital rocket
+ =  =  Solid fuel booster
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Aluminium
+ =  =  =  =  Power
+ =  =  =  =  Bauxite
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Rocket fuel
+ =  =  =  =  Power
+ =  =  =  =  Methane
+ =  =  =  =  =  Power
+ =  =  Sub-orbital 2nd stage
+ =  =  =  Fuselage
+ =  =  =  =  Carbon composite
+ =  =  =  =  =  Carbon fibers
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Crude oil
+ =  =  =  =  =  =  =  Power
+ =  =  =  Flight computer
+ =  =  =  =  On-board computer
+ =  =  =  =  =  Processors
+ =  =  =  =  =  =  Silicon
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Sand
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Electronic components
+ =  =  =  =  =  =  Silicon
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Sand
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  =  Power
+ =  =  =  =  High grade e-comps
+ =  =  =  =  =  Silicon
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Sand
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Golden bars
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Gold ore
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  Attitude control
+ =  =  =  =  Batteries
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  Steel
+ =  =  =  =  =  Power
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Iron ore
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Electric motor
+ =  =  =  =  =  Electronic components
+ =  =  =  =  =  =  Silicon
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Sand
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Steel
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Iron ore
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  Propellant tank
+ =  =  =  =  Aluminium
+ =  =  =  =  =  Power
+ =  =  =  =  =  Bauxite
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Rocket fuel
+ =  =  =  =  =  Power
+ =  =  =  =  =  Methane
+ =  =  =  =  =  =  Power
+ =  =  =  Ion drive
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Batteries
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  High grade e-comps
+ =  =  =  =  =  Silicon
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Sand
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Golden bars
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Gold ore
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  BFR
+ =  =  Orbital booster
+ =  =  =  Fuselage
+ =  =  =  =  Carbon composite
+ =  =  =  =  =  Carbon fibers
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Crude oil
+ =  =  =  =  =  =  =  Power
+ =  =  =  Propellant tank
+ =  =  =  =  Aluminium
+ =  =  =  =  =  Power
+ =  =  =  =  =  Bauxite
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Rocket fuel
+ =  =  =  =  =  Power
+ =  =  =  =  =  Methane
+ =  =  =  =  =  =  Power
+ =  =  =  Rocket engine
+ =  =  =  =  Aluminium
+ =  =  =  =  =  Power
+ =  =  =  =  =  Bauxite
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Steel
+ =  =  =  =  =  Power
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Iron ore
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  High grade e-comps
+ =  =  =  =  =  Silicon
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Sand
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Golden bars
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Gold ore
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  Starship
+ =  =  =  Cockpit
+ =  =  =  =  Displays
+ =  =  =  =  =  Silicon
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Sand
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  Basic interior
+ =  =  =  =  =  Plastic
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Crude oil
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Displays
+ =  =  =  =  =  =  Silicon
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Sand
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Fabric
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Cotton
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  =  Power
+ =  =  =  =  High grade e-comps
+ =  =  =  =  =  Silicon
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Sand
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Golden bars
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Gold ore
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  Attitude control
+ =  =  =  =  Batteries
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  Steel
+ =  =  =  =  =  Power
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Iron ore
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Electric motor
+ =  =  =  =  =  Electronic components
+ =  =  =  =  =  =  Silicon
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Sand
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Steel
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Iron ore
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  Propellant tank
+ =  =  =  =  Aluminium
+ =  =  =  =  =  Power
+ =  =  =  =  =  Bauxite
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Rocket fuel
+ =  =  =  =  =  Power
+ =  =  =  =  =  Methane
+ =  =  =  =  =  =  Power
+ =  =  =  Rocket engine
+ =  =  =  =  Aluminium
+ =  =  =  =  =  Power
+ =  =  =  =  =  Bauxite
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Steel
+ =  =  =  =  =  Power
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Iron ore
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  High grade e-comps
+ =  =  =  =  =  Silicon
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Sand
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Golden bars
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Gold ore
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  Heat shield
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  =  =  Steel
+ =  =  =  =  =  Power
+ =  =  =  =  =  Chemicals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Minerals
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Iron ore
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+{Aerospace research: 9}
+
+Reinforced concrete
+ =  Cement
+ =  =  Limestone
+ =  =  =  Power
+ =  Water
+ =  =  Power
+ =  Steel
+ =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Iron ore
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Sand
+ =  =  Power
+{Reinforced concrete: 5}
+
+Bricks
+ =  Clay
+ =  =  Power
+{Bricks: 2}
+
+Cement
+ =  Limestone
+ =  =  Power
+{Cement: 2}
+
+Clay
+ =  Power
+{Clay: 1}
+
+Limestone
+ =  Power
+{Limestone: 1}
+
+Wood
+ =  Water
+ =  =  Power
+ =  Seeds
+ =  =  Water
+ =  =  =  Power
+{Wood: 3}
+
+Steel beams
+ =  Power
+ =  Steel
+ =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Iron ore
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Steel beams: 5}
+
+Planks
+ =  Wood
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+{Planks: 4}
+
+Windows
+ =  Aluminium
+ =  =  Power
+ =  =  Bauxite
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Glass
+ =  =  Power
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+{Windows: 4}
+
+Tools
+ =  Planks
+ =  =  Wood
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Electronic components
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Batteries
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Steel
+ =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Iron ore
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Tools: 5}
+
+Construction units
+ =  Steel beams
+ =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Windows
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Glass
+ =  =  =  Power
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  Tools
+ =  =  Planks
+ =  =  =  Wood
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Electronic components
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Batteries
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Bulldozer
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Car body
+ =  =  =  Aluminium
+ =  =  =  =  Power
+ =  =  =  =  Bauxite
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Steel
+ =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Iron ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Glass
+ =  =  =  =  Power
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  Combustion engine
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Electronic components
+ =  =  =  =  Silicon
+ =  =  =  =  =  Power
+ =  =  =  =  =  Sand
+ =  =  =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Steel
+ =  =  =  =  Power
+ =  =  =  =  Chemicals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Minerals
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Iron ore
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Diesel
+ =  =  Power
+ =  =  Crude oil
+ =  =  =  Power
+ =  =  Ethanol
+ =  =  =  Power
+ =  =  =  Sugarcane
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+{Construction units: 7}
+
+Bulldozer
+ =  Steel
+ =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Iron ore
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Car body
+ =  =  Aluminium
+ =  =  =  Power
+ =  =  =  Bauxite
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Glass
+ =  =  =  Power
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  Combustion engine
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Electronic components
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Bulldozer: 6}
+
+Materials research
+{Materials research: 0}
+
+Robots
+ =  Plastic
+ =  =  Power
+ =  =  Crude oil
+ =  =  =  Power
+ =  Processors
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Electric motor
+ =  =  Electronic components
+ =  =  =  Silicon
+ =  =  =  =  Power
+ =  =  =  =  Sand
+ =  =  =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Steel
+ =  =  =  Power
+ =  =  =  Chemicals
+ =  =  =  =  Power
+ =  =  =  =  Minerals
+ =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Iron ore
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Robots: 6}
+
+Cows
+ =  Fodder
+ =  =  Vegetables
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Grain
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Water
+ =  =  Power
+{Cows: 5}
+
+Pigs
+ =  Fodder
+ =  =  Vegetables
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Grain
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Water
+ =  =  Power
+{Pigs: 5}
+
+Milk
+ =  Fodder
+ =  =  Vegetables
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Grain
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Water
+ =  =  Power
+{Milk: 5}
+
+Coffee beans
+ =  Water
+ =  =  Power
+ =  Seeds
+ =  =  Water
+ =  =  =  Power
+{Coffee beans: 3}
+
+Coffee powder
+ =  Coffee beans
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+{Coffee powder: 4}
+
+Vegetables
+ =  Water
+ =  =  Power
+ =  Seeds
+ =  =  Water
+ =  =  =  Power
+{Vegetables: 3}
+
+Bread
+ =  Dough
+ =  =  Flour
+ =  =  =  Grain
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Butter
+ =  =  =  Milk
+ =  =  =  =  Fodder
+ =  =  =  =  =  Vegetables
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Grain
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Eggs
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Grain
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+{Bread: 8}
+
+Cheese
+ =  Milk
+ =  =  Fodder
+ =  =  =  Vegetables
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Grain
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Water
+ =  =  =  Power
+{Cheese: 6}
+
+Apple pie
+ =  Sugar
+ =  =  Power
+ =  =  Sugarcane
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Dough
+ =  =  Flour
+ =  =  =  Grain
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Butter
+ =  =  =  Milk
+ =  =  =  =  Fodder
+ =  =  =  =  =  Vegetables
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Grain
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Eggs
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Grain
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Apples
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+{Apple pie: 8}
+
+Orange juice
+ =  Sugar
+ =  =  Power
+ =  =  Sugarcane
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Oranges
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+{Orange juice: 5}
+
+Apple cider
+ =  Apples
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+{Apple cider: 4}
+
+Ginger beer
+ =  Vegetables
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Sugar
+ =  =  Power
+ =  =  Sugarcane
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Water
+ =  =  Power
+{Ginger beer: 5}
+
+Frozen pizza
+ =  Vegetables
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Cheese
+ =  =  Milk
+ =  =  =  Fodder
+ =  =  =  =  Vegetables
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Dough
+ =  =  Flour
+ =  =  =  Grain
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Butter
+ =  =  =  Milk
+ =  =  =  =  Fodder
+ =  =  =  =  =  Vegetables
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Grain
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Eggs
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Grain
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Sausages
+ =  =  Pigs
+ =  =  =  Fodder
+ =  =  =  =  Vegetables
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Frozen pizza: 8}
+
+Pasta
+ =  Flour
+ =  =  Grain
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Eggs
+ =  =  Water
+ =  =  =  Power
+ =  =  Grain
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Pasta: 5}
+
+Hamburger
+ =  Vegetables
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Bread
+ =  =  Dough
+ =  =  =  Flour
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Butter
+ =  =  =  =  Milk
+ =  =  =  =  =  Fodder
+ =  =  =  =  =  =  Vegetables
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Grain
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Eggs
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  Butter
+ =  =  Milk
+ =  =  =  Fodder
+ =  =  =  =  Vegetables
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Vegetable oil
+ =  =  Power
+ =  =  Vegetables
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Steak
+ =  =  Cows
+ =  =  =  Fodder
+ =  =  =  =  Vegetables
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Hamburger: 9}
+
+Lasagna
+ =  Cheese
+ =  =  Milk
+ =  =  =  Fodder
+ =  =  =  =  Vegetables
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Pasta
+ =  =  Flour
+ =  =  =  Grain
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Eggs
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Grain
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  Sauce
+ =  =  Vegetables
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Butter
+ =  =  =  Milk
+ =  =  =  =  Fodder
+ =  =  =  =  =  Vegetables
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Grain
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Water
+ =  =  =  Power
+ =  Steak
+ =  =  Cows
+ =  =  =  Fodder
+ =  =  =  =  Vegetables
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Lasagna: 8}
+
+Meat balls
+ =  Bread
+ =  =  Dough
+ =  =  =  Flour
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Butter
+ =  =  =  =  Milk
+ =  =  =  =  =  Fodder
+ =  =  =  =  =  =  Vegetables
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Grain
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Eggs
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  Sauce
+ =  =  Vegetables
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Butter
+ =  =  =  Milk
+ =  =  =  =  Fodder
+ =  =  =  =  =  Vegetables
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Grain
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Water
+ =  =  =  Power
+ =  Vegetable oil
+ =  =  Power
+ =  =  Vegetables
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Sausages
+ =  =  Pigs
+ =  =  =  Fodder
+ =  =  =  =  Vegetables
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Meat balls: 9}
+
+Cocktails
+ =  Coffee powder
+ =  =  Coffee beans
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Orange juice
+ =  =  Sugar
+ =  =  =  Power
+ =  =  =  Sugarcane
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Oranges
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Apple cider
+ =  =  Apples
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Ginger beer
+ =  =  Vegetables
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  Sugar
+ =  =  =  Power
+ =  =  =  Sugarcane
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Water
+ =  =  =  Power
+{Cocktails: 6}
+
+Flour
+ =  Grain
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+{Flour: 4}
+
+Butter
+ =  Milk
+ =  =  Fodder
+ =  =  =  Vegetables
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Grain
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Water
+ =  =  =  Power
+{Butter: 6}
+
+Sugar
+ =  Power
+ =  Sugarcane
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+{Sugar: 4}
+
+Cocoa
+ =  Water
+ =  =  Power
+ =  Seeds
+ =  =  Water
+ =  =  =  Power
+{Cocoa: 3}
+
+Dough
+ =  Flour
+ =  =  Grain
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Butter
+ =  =  Milk
+ =  =  =  Fodder
+ =  =  =  =  Vegetables
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Eggs
+ =  =  Water
+ =  =  =  Power
+ =  =  Grain
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Dough: 7}
+
+Sauce
+ =  Vegetables
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Butter
+ =  =  Milk
+ =  =  =  Fodder
+ =  =  =  =  Vegetables
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Water
+ =  =  Power
+{Sauce: 7}
+
+Fodder
+ =  Vegetables
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Grain
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+{Fodder: 4}
+
+Chocolate
+ =  Milk
+ =  =  Fodder
+ =  =  =  Vegetables
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Grain
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Water
+ =  =  =  Power
+ =  Sugar
+ =  =  Power
+ =  =  Sugarcane
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Cocoa
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+{Chocolate: 6}
+
+Vegetable oil
+ =  Power
+ =  Vegetables
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+{Vegetable oil: 4}
+
+Salad
+ =  Vegetables
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Cheese
+ =  =  Milk
+ =  =  =  Fodder
+ =  =  =  =  Vegetables
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Vegetable oil
+ =  =  Power
+ =  =  Vegetables
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Salad: 7}
+
+Samosa
+ =  Vegetables
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Flour
+ =  =  Grain
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Vegetable oil
+ =  =  Power
+ =  =  Vegetables
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Samosa: 5}
+
+Xmas ornament
+ =  Minerals
+ =  =  Power
+ =  =  Water
+ =  =  =  Power
+ =  Aluminium
+ =  =  Power
+ =  =  Bauxite
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Glass
+ =  =  Power
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+{Xmas ornament: 4}
+
+Recipes
+{Recipes: 0}
+
+Pumpkin
+ =  Water
+ =  =  Power
+ =  Seeds
+ =  =  Water
+ =  =  =  Power
+{Pumpkin: 3}
+
+Jack o'lantern
+ =  Pumpkin
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Electronic components
+ =  =  Silicon
+ =  =  =  Power
+ =  =  =  Sand
+ =  =  =  =  Power
+ =  =  Chemicals
+ =  =  =  Power
+ =  =  =  Minerals
+ =  =  =  =  Power
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Jack o'lantern: 5}
+
+Witch costume
+ =  Plastic
+ =  =  Power
+ =  =  Crude oil
+ =  =  =  Power
+ =  Fabric
+ =  =  Power
+ =  =  Cotton
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Witch costume: 5}
+
+Pumpkin soup
+ =  Bread
+ =  =  Dough
+ =  =  =  Flour
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Butter
+ =  =  =  =  Milk
+ =  =  =  =  =  Fodder
+ =  =  =  =  =  =  Vegetables
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  Grain
+ =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  =  =  Seeds
+ =  =  =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  =  =  Power
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Eggs
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  Butter
+ =  =  Milk
+ =  =  =  Fodder
+ =  =  =  =  Vegetables
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Pumpkin
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+{Pumpkin soup: 9}
+
+Tree
+ =  Water
+ =  =  Power
+{Tree: 2}
+
+Easter Bunny
+ =  Milk
+ =  =  Fodder
+ =  =  =  Vegetables
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Grain
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Water
+ =  =  =  Power
+ =  Sugar
+ =  =  Power
+ =  =  Sugarcane
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Cocoa
+ =  =  Water
+ =  =  =  Power
+ =  =  Seeds
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Aluminium
+ =  =  Power
+ =  =  Bauxite
+ =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+{Easter Bunny: 6}
+
+Ramadan sweets
+ =  Milk
+ =  =  Fodder
+ =  =  =  Vegetables
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  Grain
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  =  =  =  Seeds
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  Water
+ =  =  =  Power
+ =  Flour
+ =  =  Grain
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+ =  Butter
+ =  =  Milk
+ =  =  =  Fodder
+ =  =  =  =  Vegetables
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  =  Grain
+ =  =  =  =  =  Water
+ =  =  =  =  =  =  Power
+ =  =  =  =  =  Seeds
+ =  =  =  =  =  =  Water
+ =  =  =  =  =  =  =  Power
+ =  =  =  Water
+ =  =  =  =  Power
+ =  Sugar
+ =  =  Power
+ =  =  Sugarcane
+ =  =  =  Water
+ =  =  =  =  Power
+ =  =  =  Seeds
+ =  =  =  =  Water
+ =  =  =  =  =  Power
+{Ramadan sweets: 7}
